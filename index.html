@@ -1,0 +1,2118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Make Money Online in 2026 — The Ultimate Guide</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap');
+
+        :root {
+            --primary: #6C3CE1;
+            --primary-light: #8B5CF6;
+            --primary-dark: #4C1D95;
+            --accent: #F59E0B;
+            --accent-light: #FCD34D;
+            --bg: #0F0E17;
+            --bg-card: #1A1929;
+            --bg-card-hover: #232136;
+            --text: #FFFFFE;
+            --text-muted: #94A3B8;
+            --text-secondary: #CBD5E1;
+            --gradient-1: linear-gradient(135deg, #6C3CE1, #3B82F6, #06B6D4);
+            --gradient-2: linear-gradient(135deg, #F59E0B, #EF4444, #EC4899);
+            --gradient-3: linear-gradient(135deg, #10B981, #3B82F6);
+            --border: rgba(148, 163, 184, 0.1);
+            --glow: 0 0 40px rgba(108, 60, 225, 0.3);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        /* Animated Background */
+        .bg-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .bg-animation .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.15;
+            animation: float 20s infinite ease-in-out;
+        }
+
+        .bg-animation .orb:nth-child(1) {
+            width: 600px;
+            height: 600px;
+            background: #6C3CE1;
+            top: -200px;
+            left: -100px;
+            animation-delay: 0s;
+        }
+
+        .bg-animation .orb:nth-child(2) {
+            width: 500px;
+            height: 500px;
+            background: #3B82F6;
+            top: 50%;
+            right: -200px;
+            animation-delay: -5s;
+        }
+
+        .bg-animation .orb:nth-child(3) {
+            width: 400px;
+            height: 400px;
+            background: #F59E0B;
+            bottom: -100px;
+            left: 30%;
+            animation-delay: -10s;
+        }
+
+        .bg-animation .orb:nth-child(4) {
+            width: 350px;
+            height: 350px;
+            background: #EC4899;
+            top: 30%;
+            left: 50%;
+            animation-delay: -15s;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            25% { transform: translate(50px, -80px) scale(1.1); }
+            50% { transform: translate(-30px, 50px) scale(0.9); }
+            75% { transform: translate(70px, 30px) scale(1.05); }
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 1rem 2rem;
+            transition: all 0.4s ease;
+            backdrop-filter: blur(20px);
+            background: rgba(15, 14, 23, 0.8);
+            border-bottom: 1px solid var(--border);
+        }
+
+        nav.scrolled {
+            padding: 0.7rem 2rem;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 800;
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: var(--text);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--gradient-1);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 8rem 2rem 4rem;
+            position: relative;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            animation: fadeInUp 1s ease;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1.2rem;
+            background: rgba(108, 60, 225, 0.15);
+            border: 1px solid rgba(108, 60, 225, 0.3);
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--primary-light);
+            margin-bottom: 2rem;
+            animation: fadeInUp 1s ease 0.2s both;
+        }
+
+        .hero-badge .pulse {
+            width: 8px;
+            height: 8px;
+            background: #10B981;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.5); }
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 7vw, 5rem);
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            animation: fadeInUp 1s ease 0.4s both;
+        }
+
+        .hero h1 .highlight {
+            background: var(--gradient-2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            max-width: 600px;
+            margin: 0 auto 2.5rem;
+            animation: fadeInUp 1s ease 0.6s both;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: fadeInUp 1s ease 0.8s both;
+        }
+
+        .btn {
+            padding: 0.9rem 2rem;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn-primary {
+            background: var(--gradient-1);
+            color: white;
+            box-shadow: 0 4px 20px rgba(108, 60, 225, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(108, 60, 225, 0.6);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text);
+            border: 1px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 4rem;
+            padding-top: 3rem;
+            border-top: 1px solid var(--border);
+            animation: fadeInUp 1s ease 1s both;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 800;
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 0.25rem;
+        }
+
+        /* Scroll Indicator */
+        .scroll-indicator {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+        }
+
+        .scroll-indicator svg {
+            width: 30px;
+            height: 30px;
+            color: var(--text-muted);
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateX(-50%) translateY(0); }
+            50% { transform: translateX(-50%) translateY(10px); }
+        }
+
+        /* Section Styles */
+        section {
+            padding: 6rem 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-tag {
+            display: inline-block;
+            padding: 0.4rem 1rem;
+            background: rgba(108, 60, 225, 0.15);
+            border: 1px solid rgba(108, 60, 225, 0.3);
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--primary-light);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+        }
+
+        .section-header h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+
+        .section-header p {
+            color: var(--text-muted);
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+        }
+
+        /* Methods Grid */
+        .methods-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .method-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 2rem;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            cursor: default;
+        }
+
+        .method-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--gradient-1);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .method-card:hover {
+            background: var(--bg-card-hover);
+            transform: translateY(-5px);
+            border-color: rgba(108, 60, 225, 0.3);
+            box-shadow: var(--glow);
+        }
+
+        .method-card:hover::before {
+            opacity: 1;
+        }
+
+        .method-card:nth-child(2)::before { background: var(--gradient-2); }
+        .method-card:nth-child(3)::before { background: var(--gradient-3); }
+        .method-card:nth-child(4)::before { background: linear-gradient(135deg, #EC4899, #8B5CF6); }
+        .method-card:nth-child(5)::before { background: linear-gradient(135deg, #F59E0B, #10B981); }
+        .method-card:nth-child(6)::before { background: linear-gradient(135deg, #06B6D4, #6C3CE1); }
+
+        .method-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .method-card:nth-child(1) .method-icon { background: rgba(108, 60, 225, 0.15); }
+        .method-card:nth-child(2) .method-icon { background: rgba(245, 158, 11, 0.15); }
+        .method-card:nth-child(3) .method-icon { background: rgba(16, 185, 129, 0.15); }
+        .method-card:nth-child(4) .method-icon { background: rgba(236, 72, 153, 0.15); }
+        .method-card:nth-child(5) .method-icon { background: rgba(59, 130, 246, 0.15); }
+        .method-card:nth-child(6) .method-icon { background: rgba(6, 182, 212, 0.15); }
+
+        .method-card h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+
+        .method-card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+        }
+
+        .method-meta {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .meta-tag {
+            padding: 0.3rem 0.8rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .earning-tag {
+            color: #10B981;
+            background: rgba(16, 185, 129, 0.1);
+            font-weight: 600;
+        }
+
+        /* Featured / Deep Dive Section */
+        .deep-dive {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            padding: 3rem;
+            margin-top: 2rem;
+        }
+
+        .deep-dive-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .deep-dive-content h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .deep-dive-content p {
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+        }
+
+        .checklist {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .checklist li {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .checklist .check {
+            width: 22px;
+            height: 22px;
+            min-width: 22px;
+            background: rgba(16, 185, 129, 0.15);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #10B981;
+            font-size: 0.75rem;
+            margin-top: 2px;
+        }
+
+        .visual-card {
+            background: linear-gradient(135deg, rgba(108, 60, 225, 0.1), rgba(59, 130, 246, 0.1));
+            border: 1px solid rgba(108, 60, 225, 0.2);
+            border-radius: 20px;
+            padding: 2.5rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .visual-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: conic-gradient(from 0deg, transparent, rgba(108, 60, 225, 0.05), transparent, rgba(59, 130, 246, 0.05), transparent);
+            animation: rotate 15s linear infinite;
+        }
+
+        @keyframes rotate {
+            100% { transform: rotate(360deg); }
+        }
+
+        .visual-card .big-number {
+            font-size: 5rem;
+            font-weight: 900;
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            position: relative;
+            z-index: 1;
+        }
+
+        .visual-card .label {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Steps Section */
+        .steps-section {
+            position: relative;
+        }
+
+        .steps-container {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .steps-container::before {
+            content: '';
+            position: absolute;
+            left: 30px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, var(--primary), var(--primary-light), transparent);
+        }
+
+        .step {
+            display: flex;
+            gap: 2rem;
+            align-items: flex-start;
+            padding: 1.5rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .step:hover {
+            background: var(--bg-card-hover);
+            border-color: rgba(108, 60, 225, 0.3);
+            transform: translateX(5px);
+        }
+
+        .step-number {
+            width: 60px;
+            height: 60px;
+            min-width: 60px;
+            border-radius: 50%;
+            background: var(--gradient-1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: white;
+            position: relative;
+            z-index: 1;
+        }
+
+        .step-content h3 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .step-content p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* AI Section */
+        .ai-section {
+            position: relative;
+        }
+
+        .ai-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+        }
+
+        .ai-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .ai-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(108, 60, 225, 0.4);
+            box-shadow: var(--glow);
+        }
+
+        .ai-emoji {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .ai-card h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+
+        .ai-card p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .ai-card .tool-examples {
+            margin-top: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            justify-content: center;
+        }
+
+        .tool-tag {
+            padding: 0.2rem 0.6rem;
+            background: rgba(108, 60, 225, 0.1);
+            border: 1px solid rgba(108, 60, 225, 0.2);
+            border-radius: 6px;
+            font-size: 0.75rem;
+            color: var(--primary-light);
+        }
+
+        /* Income Tiers */
+        .tiers-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+        }
+
+        .tier-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 2.5rem 2rem;
+            text-align: center;
+            transition: all 0.4s ease;
+            position: relative;
+        }
+
+        .tier-card.featured {
+            border-color: rgba(108, 60, 225, 0.5);
+            background: linear-gradient(180deg, rgba(108, 60, 225, 0.1) 0%, var(--bg-card) 100%);
+            transform: scale(1.05);
+        }
+
+        .tier-card.featured::before {
+            content: '🔥 MOST POPULAR';
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 0.3rem 1rem;
+            background: var(--gradient-2);
+            border-radius: 50px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            white-space: nowrap;
+        }
+
+        .tier-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(108, 60, 225, 0.4);
+        }
+
+        .tier-card.featured:hover {
+            transform: scale(1.05) translateY(-5px);
+        }
+
+        .tier-name {
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--primary-light);
+            margin-bottom: 0.75rem;
+        }
+
+        .tier-amount {
+            font-size: 2.5rem;
+            font-weight: 900;
+            margin-bottom: 0.25rem;
+        }
+
+        .tier-period {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .tier-features {
+            list-style: none;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin-bottom: 2rem;
+        }
+
+        .tier-features li {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .tier-features li::before {
+            content: '✓';
+            color: #10B981;
+            font-weight: 700;
+        }
+
+        .tier-time {
+            padding: 0.5rem 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        /* Tips Section */
+        .tips-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+
+        .tip-card {
+            display: flex;
+            gap: 1.5rem;
+            padding: 1.5rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .tip-card:hover {
+            background: var(--bg-card-hover);
+            border-color: rgba(108, 60, 225, 0.3);
+        }
+
+        .tip-number {
+            font-size: 2rem;
+            font-weight: 900;
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            min-width: 40px;
+        }
+
+        .tip-content h4 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 0.4rem;
+        }
+
+        .tip-content p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Mistakes Section */
+        .mistakes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .mistake-card {
+            padding: 1.5rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            border-left: 4px solid #EF4444;
+            transition: all 0.3s ease;
+        }
+
+        .mistake-card:hover {
+            background: var(--bg-card-hover);
+        }
+
+        .mistake-card h4 {
+            color: #FCA5A5;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .mistake-card p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Testimonials */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+        }
+
+        .testimonial-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            background: var(--bg-card-hover);
+            transform: translateY(-3px);
+        }
+
+        .stars {
+            color: #F59E0B;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .testimonial-text {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            font-style: italic;
+            margin-bottom: 1.5rem;
+            line-height: 1.7;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .author-avatar {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: var(--gradient-1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+
+        .author-info .name {
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .author-info .role {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        /* FAQ Section */
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            margin-bottom: 0.75rem;
+            overflow: hidden;
+            background: var(--bg-card);
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            border-color: rgba(108, 60, 225, 0.3);
+        }
+
+        .faq-question {
+            width: 100%;
+            padding: 1.25rem 1.5rem;
+            background: none;
+            border: none;
+            color: var(--text);
+            font-size: 1rem;
+            font-weight: 600;
+            text-align: left;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: inherit;
+        }
+
+        .faq-question .icon {
+            font-size: 1.2rem;
+            transition: transform 0.3s ease;
+            color: var(--primary-light);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.4s ease;
+        }
+
+        .faq-answer.active {
+            max-height: 300px;
+        }
+
+        .faq-answer p {
+            padding: 0 1.5rem 1.25rem;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            text-align: center;
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, rgba(108, 60, 225, 0.2), rgba(59, 130, 246, 0.2));
+            border: 1px solid rgba(108, 60, 225, 0.3);
+            border-radius: 24px;
+            padding: 4rem 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-box::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: conic-gradient(from 0deg, transparent, rgba(108, 60, 225, 0.03), transparent, rgba(59, 130, 246, 0.03), transparent);
+            animation: rotate 20s linear infinite;
+        }
+
+        .cta-box > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-box h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.8rem, 4vw, 2.8rem);
+            margin-bottom: 1rem;
+        }
+
+        .cta-box p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            max-width: 500px;
+            margin: 0 auto 2rem;
+        }
+
+        /* Newsletter */
+        .newsletter-form {
+            display: flex;
+            gap: 0.75rem;
+            max-width: 450px;
+            margin: 0 auto;
+        }
+
+        .newsletter-form input {
+            flex: 1;
+            padding: 0.9rem 1.2rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            color: var(--text);
+            font-size: 0.95rem;
+            font-family: inherit;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        .newsletter-form input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .newsletter-form input:focus {
+            border-color: var(--primary-light);
+        }
+
+        /* Footer */
+        footer {
+            padding: 3rem 2rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .footer-text {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .footer-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--text);
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Marquee */
+        .marquee-section {
+            overflow: hidden;
+            padding: 2rem 0;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .marquee-track {
+            display: flex;
+            animation: marquee 30s linear infinite;
+            gap: 3rem;
+        }
+
+        .marquee-item {
+            white-space: nowrap;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: rgba(255, 255, 255, 0.05);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .marquee-item span {
+            color: rgba(108, 60, 225, 0.2);
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        /* Back to Top */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 48px;
+            height: 48px;
+            background: var(--gradient-1);
+            border: none;
+            border-radius: 50%;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 20px rgba(108, 60, 225, 0.4);
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(108, 60, 225, 0.6);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .ai-grid,
+            .tiers-grid,
+            .testimonials-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .tier-card.featured {
+                transform: scale(1);
+            }
+
+            .tier-card.featured:hover {
+                transform: translateY(-5px);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .hero-stats {
+                gap: 1.5rem;
+            }
+
+            .deep-dive-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .methods-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .ai-grid,
+            .tiers-grid,
+            .testimonials-grid,
+            .tips-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .steps-container::before {
+                left: 20px;
+            }
+
+            .step {
+                gap: 1rem;
+            }
+
+            .step-number {
+                width: 40px;
+                height: 40px;
+                min-width: 40px;
+                font-size: 1rem;
+            }
+
+            .newsletter-form {
+                flex-direction: column;
+            }
+
+            section {
+                padding: 4rem 1.5rem;
+            }
+
+            .deep-dive {
+                padding: 2rem;
+            }
+
+            .footer-content {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-stats {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+
+        /* Reading Progress Bar */
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: var(--gradient-1);
+            z-index: 1001;
+            transition: width 0.1s linear;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <div class="orb"></div>
+        <div class="orb"></div>
+        <div class="orb"></div>
+        <div class="orb"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">MoneyFlow 2026</div>
+            <ul class="nav-links">
+                <li><a href="#methods">Methods</a></li>
+                <li><a href="#ai-tools">AI Tools</a></li>
+                <li><a href="#steps">Get Started</a></li>
+                <li><a href="#income">Income Tiers</a></li>
+                <li><a href="#tips">Pro Tips</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMobile()" aria-label="Menu">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <div class="pulse"></div>
+                Updated for 2026
+            </div>
+            <h1>The Ultimate Guide to<br><span class="highlight">Making Money Online</span><br>in 2026</h1>
+            <p>Discover proven strategies, leverage AI tools, and build sustainable income streams. The digital economy is booming — here's how you capitalize.</p>
+            <div class="hero-cta">
+                <a href="#methods" class="btn btn-primary">Explore Methods ↓</a>
+                <a href="#steps" class="btn btn-secondary">Quick Start Guide</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">$10T+</div>
+                    <div class="stat-label">Digital Economy Size</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">3.2B</div>
+                    <div class="stat-label">Online Buyers</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">47%</div>
+                    <div class="stat-label">Remote Workers</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+        </div>
+    </header>
+
+    <!-- Marquee -->
+    <div class="marquee-section">
+        <div class="marquee-track">
+            <div class="marquee-item"><span>✦</span> FREELANCING</div>
+            <div class="marquee-item"><span>✦</span> AI AUTOMATION</div>
+            <div class="marquee-item"><span>✦</span> E-COMMERCE</div>
+            <div class="marquee-item"><span>✦</span> CONTENT CREATION</div>
+            <div class="marquee-item"><span>✦</span> DIGITAL PRODUCTS</div>
+            <div class="marquee-item"><span>✦</span> ONLINE COURSES</div>
+            <div class="marquee-item"><span>✦</span> SAAS</div>
+            <div class="marquee-item"><span>✦</span> AFFILIATE MARKETING</div>
+            <div class="marquee-item"><span>✦</span> FREELANCING</div>
+            <div class="marquee-item"><span>✦</span> AI AUTOMATION</div>
+            <div class="marquee-item"><span>✦</span> E-COMMERCE</div>
+            <div class="marquee-item"><span>✦</span> CONTENT CREATION</div>
+            <div class="marquee-item"><span>✦</span> DIGITAL PRODUCTS</div>
+            <div class="marquee-item"><span>✦</span> ONLINE COURSES</div>
+            <div class="marquee-item"><span>✦</span> SAAS</div>
+            <div class="marquee-item"><span>✦</span> AFFILIATE MARKETING</div>
+        </div>
+    </div>
+
+    <!-- Top Methods Section -->
+    <section id="methods">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Proven Methods</span>
+                <h2>Top Ways to Make Money Online in 2026</h2>
+                <p>These aren't "get rich quick" schemes — they're real, scalable business models powering the creator economy.</p>
+            </div>
+
+            <div class="methods-grid">
+                <div class="method-card fade-in">
+                    <div class="method-icon">🤖</div>
+                    <h3>AI Automation Services</h3>
+                    <p>Help businesses automate workflows using AI tools. Set up chatbots, automate email sequences, create AI-generated reports, and build custom AI agents. Companies will pay premium rates for someone who can save them hundreds of hours.</p>
+                    <div class="method-meta">
+                        <span class="meta-tag earning-tag">$5K–$30K/mo</span>
+                        <span class="meta-tag">🔥 Trending</span>
+                        <span class="meta-tag">Low Startup Cost</span>
+                    </div>
+                </div>
+
+                <div class="method-card fade-in">
+                    <div class="method-icon">🎨</div>
+                    <h3>Digital Product Empire</h3>
+                    <p>Create and sell templates, design assets, Notion systems, spreadsheets, prompts, presets, and printables. Build once, sell forever. Platforms like Gumroad, Lemonsqueezy, and Etsy make distribution effortless.</p>
+                    <div class="method-meta">
+                        <span class="meta-tag earning-tag">$1K–$50K/mo</span>
+                        <span class="meta-tag">Passive Income</span>
+                        <span class="meta-tag">Scalable</span>
+                    </div>
+                </div>
+
+                <div class="method-card fade-in">
+                    <div class="method-icon">📹</div>
+                    <h3>Content Creation & UGC</h3>
+                    <p>Build an audience on YouTube, TikTok, Instagram, or newsletters. Monetize through ads, sponsorships, and affiliate marketing. UGC (User-Generated Content) creators earn by making branded content without even needing followers.</p>
+                    <div class="method-meta">
+                        <span class="meta-tag earning-tag">$2K–$100K/mo</span>
+                        <span class="meta-tag">Brand Deals</span>
+                        <span class="meta-tag">Long-Term</span>
+                    </div>
+                </div>
+
+                <div class="method-card fade-in">
+                    <div class="method-icon">💻</div>
+                    <h3>Freelance & Consulting</h3>
+                    <p>Offer high-value skills: web development, copywriting, design, marketing, video editing, or AI consulting. Platforms like Upwork, Toptal, and Fiverr connect you with global clients instantly.</p>
+                    <div class="method-meta">
+                        <span class="meta-tag earning-tag">$3K–$25K/mo</span>
+                        <span class="meta-tag">Quick Start</span>
+                        <span class="meta-tag">Flexible</span>
+                    </div>
+                </div>
+
+                <div class="method-card fade-in">
+                    <div class="method-icon">🛍️</div>
+                    <h3>E-commerce & Dropshipping 2.0</h3>
+                    <p>Launch a Shopify or WooCommerce store. Use AI-powered product research, automated fulfillment, and social commerce. In 2026, TikTok Shop and AI-personalized marketing are game-changers.</p>
+                    <div class="method-meta">
+                        <span class="meta-tag earning-tag">$2K–$75K/mo</span>
+                        <span class="meta-tag">Scalable</span>
+                        <span class="meta-tag">Global Market</span>
+                    </div>
+                </div>
+
+                <div class="method-card fade-in">
+                    <div class="method-icon">🎓</div>
+                    <h3>Online Courses & Coaching</h3>
+                    <p>Package your expertise into courses, cohorts, or 1-on-1 coaching programs. Platforms like Skool, Teachable, and Maven make it easy. The e-learning market is projected to hit $400B+ by 2026.</p>
+                    <div class="method-meta">
+                        <span class="meta-tag earning-tag">$5K–$200K/mo</span>
+                        <span class="meta-tag">High Margins</span>
+                        <span class="meta-tag">Authority Builder</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deep Dive -->
+            <div class="deep-dive fade-in">
+                <div class="deep-dive-grid">
+                    <div class="deep-dive-content">
+                        <h3>Why 2026 is <span style="color: var(--accent);">THE Year</span> to Start</h3>
+                        <p>The convergence of AI, remote work culture, and creator platforms has created the greatest wealth-building opportunity in human history. Here's what's different:</p>
+                        <ul class="checklist">
+                            <li><span class="check">✓</span> AI tools reduce skill barriers — anyone can create professional content</li>
+                            <li><span class="check">✓</span> Global payment infrastructure is seamless (crypto, Stripe, Wise)</li>
+                            <li><span class="check">✓</span> No-code platforms let you build apps and websites without programming</li>
+                            <li><span class="check">✓</span> Social media algorithms favor new creators more than ever</li>
+                            <li><span class="check">✓</span> Remote work is normalized — location independence is default</li>
+                            <li><span class="check">✓</span> Micro-niches are thriving — you don't need millions of followers</li>
+                        </ul>
+                    </div>
+                    <div class="visual-card">
+                        <div class="big-number">$404B</div>
+                        <div class="label">Creator Economy Market Size in 2026</div>
+                        <br>
+                        <div style="position: relative; z-index: 1; color: var(--text-muted); font-size: 0.85rem;">Up from $127B in 2023 — growing 40%+ annually</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Tools Section -->
+    <section id="ai-tools" style="background: rgba(108, 60, 225, 0.02);">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">AI-Powered</span>
+                <h2>AI Tools That 10x Your Income</h2>
+                <p>Smart entrepreneurs don't work harder — they leverage AI to multiply their output and earnings.</p>
+            </div>
+
+            <div class="ai-grid">
+                <div class="ai-card fade-in">
+                    <span class="ai-emoji">✍️</span>
+                    <h3>AI Writing & Copy</h3>
+                    <p>Generate blog posts, ad copy, emails, social captions, and sales pages in minutes instead of hours.</p>
+                    <div class="tool-examples">
+                        <span class="tool-tag">ChatGPT</span>
+                        <span class="tool-tag">Claude</span>
+                        <span class="tool-tag">Jasper</span>
+                        <span class="tool-tag">Copy.ai</span>
+                    </div>
+                </div>
+
+                <div class="ai-card fade-in">
+                    <span class="ai-emoji">🎨</span>
+                    <h3>AI Design & Visuals</h3>
+                    <p>Create stunning graphics, product mockups, social media assets, and brand identities without design skills.</p>
+                    <div class="tool-examples">
+                        <span class="tool-tag">Midjourney</span>
+                        <span class="tool-tag">DALL·E 3</span>
+                        <span class="tool-tag">Canva AI</span>
+                        <span class="tool-tag">Figma AI</span>
+                    </div>
+                </div>
+
+                <div class="ai-card fade-in">
+                    <span class="ai-emoji">🎬</span>
+                    <h3>AI Video & Audio</h3>
+                    <p>Produce faceless YouTube videos, podcasts, voiceovers, and video ads using AI-generated or enhanced media.</p>
+                    <div class="tool-examples">
+                        <span class="tool-tag">Runway</span>
+                        <span class="tool-tag">Sora</span>
+                        <span class="tool-tag">ElevenLabs</span>
+                        <span class="tool-tag">Descript</span>
+                    </div>
+                </div>
+
+                <div class="ai-card fade-in">
+                    <span class="ai-emoji">📊</span>
+                    <h3>AI Analytics & Research</h3>
+                    <p>Find trending products, analyze competitors, optimize pricing, and identify market gaps instantly.</p>
+                    <div class="tool-examples">
+                        <span class="tool-tag">Perplexity</span>
+                        <span class="tool-tag">Semrush AI</span>
+                        <span class="tool-tag">Exploding Topics</span>
+                    </div>
+                </div>
+
+                <div class="ai-card fade-in">
+                    <span class="ai-emoji">🔄</span>
+                    <h3>AI Automation</h3>
+                    <p>Build automated workflows that handle email, social posting, customer support, and lead generation 24/7.</p>
+                    <div class="tool-examples">
+                        <span class="tool-tag">Zapier AI</span>
+                        <span class="tool-tag">Make.com</span>
+                        <span class="tool-tag">n8n</span>
+                        <span class="tool-tag">Relevance AI</span>
+                    </div>
+                </div>
+
+                <div class="ai-card fade-in">
+                    <span class="ai-emoji">💰</span>
+                    <h3>AI Coding & Apps</h3>
+                    <p>Build SaaS products, websites, Chrome extensions, and mobile apps — even with zero coding experience.</p>
+                    <div class="tool-examples">
+                        <span class="tool-tag">Cursor</span>
+                        <span class="tool-tag">Replit AI</span>
+                        <span class="tool-tag">Bolt.new</span>
+                        <span class="tool-tag">v0.dev</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Steps Section -->
+    <section id="steps">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Action Plan</span>
+                <h2>Your 7-Step Roadmap to Online Income</h2>
+                <p>Follow this battle-tested framework to go from zero to your first dollar online — and then scale.</p>
+            </div>
+
+            <div class="steps-container">
+                <div class="step fade-in">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Audit Your Skills & Interests</h3>
+                        <p>List everything you're good at, passionate about, or willing to learn. The sweet spot is where your skills meet market demand. Don't overthink it — imperfect action beats perfect planning.</p>
+                    </div>
+                </div>
+
+                <div class="step fade-in">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Research & Validate Your Niche</h3>
+                        <p>Study competitors, analyze demand using Google Trends and social media, and identify gaps. Talk to potential customers. A validated niche is worth more than any business plan.</p>
+                    </div>
+                </div>
+
+                <div class="step fade-in">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Choose Your Business Model</h3>
+                        <p>Pick one method from the list above. Don't try multiple things at once. Focus on a single path for at least 90 days before evaluating. Depth beats breadth every time.</p>
+                    </div>
+                </div>
+
+                <div class="step fade-in">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Build Your Minimum Viable Presence</h3>
+                        <p>Set up your online presence — a simple website, social profile, or marketplace listing. Use AI tools to create professional branding fast. You need to be findable and credible.</p>
+                    </div>
+                </div>
+
+                <div class="step fade-in">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Create & Ship Your First Offer</h3>
+                        <p>Launch your first product, service, or content piece. It won't be perfect — and that's fine. The goal is to get real-world feedback and your first sale. Start before you're ready.</p>
+                    </div>
+                </div>
+
+                <div class="step fade-in">
+                    <div class="step-number">6</div>
+                    <div class="step-content">
+                        <h3>Market Relentlessly (Content is King)</h3>
+                        <p>Create valuable content on 1-2 platforms consistently. Share your journey, provide value, and build trust. 80% of your time should be spent on distribution, not creation.</p>
+                    </div>
+                </div>
+
+                <div class="step fade-in">
+                    <div class="step-number">7</div>
+                    <div class="step-content">
+                        <h3>Iterate, Automate & Scale</h3>
+                        <p>Analyze what's working, double down on it. Automate repetitive tasks with AI. Hire or outsource. Build systems, not just products. Turn your side hustle into a real business.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Income Tiers -->
+    <section id="income" style="background: rgba(108, 60, 225, 0.02);">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Income Levels</span>
+                <h2>Realistic Income Expectations</h2>
+                <p>Here's what you can expect at different stages of your online income journey.</p>
+            </div>
+
+            <div class="tiers-grid">
+                <div class="tier-card fade-in">
+                    <div class="tier-name">Beginner</div>
+                    <div class="tier-amount">$500–$2K</div>
+                    <div class="tier-period">per month</div>
+                    <ul class="tier-features">
+                        <li>Freelancing on Fiverr/Upwork</li>
+                        <li>Selling simple digital products</li>
+                        <li>Basic affiliate marketing</li>
+                        <li>Virtual assistant work</li>
+                        <li>UGC content creation</li>
+                    </ul>
+                    <div class="tier-time">⏱️ Achievable in 1–3 months</div>
+                </div>
+
+                <div class="tier-card featured fade-in">
+                    <div class="tier-name">Intermediate</div>
+                    <div class="tier-amount">$5K–$15K</div>
+                    <div class="tier-period">per month</div>
+                    <ul class="tier-features">
+                        <li>Premium freelance services</li>
+                        <li>Growing content channels</li>
+                        <li>E-commerce store running</li>
+                        <li>Course/coaching launch</li>
+                        <li>Multiple income streams</li>
+                    </ul>
+                    <div class="tier-time">⏱️ Achievable in 6–12 months</div>
+                </div>
+
+                <div class="tier-card fade-in">
+                    <div class="tier-name">Advanced</div>
+                    <div class="tier-amount">$25K–$100K+</div>
+                    <div class="tier-period">per month</div>
+                    <ul class="tier-features">
+                        <li>Agency or SaaS business</li>
+                        <li>Large audience monetization</li>
+                        <li>Product suite ecosystem</li>
+                        <li>Team & systems in place</li>
+                        <li>Passive income dominates</li>
+                    </ul>
+                    <div class="tier-time">⏱️ Achievable in 1–3 years</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pro Tips -->
+    <section id="tips">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Expert Advice</span>
+                <h2>10 Pro Tips for Success</h2>
+                <p>Hard-won wisdom from people who've built six and seven-figure online businesses.</p>
+            </div>
+
+            <div class="tips-grid">
+                <div class="tip-card fade-in">
+                    <div class="tip-number">01</div>
+                    <div class="tip-content">
+                        <h4>Start Before You're Ready</h4>
+                        <p>Perfectionism is the enemy of progress. Ship fast, learn faster. Your first version will always be rough — that's expected.</p>
+                    </div>
+                </div>
+
+                <div class="tip-card fade-in">
+                    <div class="tip-number">02</div>
+                    <div class="tip-content">
+                        <h4>Build an Email List Day One</h4>
+                        <p>Social platforms change algorithms constantly. Your email list is the only audience you truly own. Start collecting emails immediately.</p>
+                    </div>
+                </div>
+
+                <div class="tip-card fade-in">
+                    <div class="tip-number">03</div>
+                    <div class="tip-content">
+                        <h4>Focus on One Thing for 90 Days</h4>
+                        <p>Shiny object syndrome kills more businesses than competition. Pick one model, go all in for a full quarter before pivoting.</p>
+                    </div>
+                </div>
+
+                <div class="tip-card fade-in">
+                    <div class="tip-number">04</div>
+                    <div class="tip-content">
+                        <h4>Learn to Sell (It's Not Optional)</h4>
+                        <p>Every online business is about persuasion. Study copywriting, storytelling, and sales psychology. It's the most valuable skill you'll ever learn.</p>
+                    </div>
+                </div>
+
+                <div class="tip-card fade-in">
+                    <div class="tip-number">05</div>
+                    <div class="tip-content">
+                        <h4>Use AI as Your Force Multiplier</h4>
+                        <p>Don't fear AI — master it. Use it to 10x your output. One person with AI can outperform a team of 10 without it.</p>
+                    </div>
+                </div>
+
+                <div class="tip-card fade-in">
+                    <div class="tip-number">06</div>
+                    <div class="tip-content">
+                        <h4>Network in Public</h4>
+                        <p>Share your journey online. Document, don't create. Engage with others in your space. Your network is your net worth in the digital age.</p>
+                    </div>
+                </div>
+
+                <div class="tip-card fade-in">
+                    <div class="tip-number">07</div>
+                    <div class="tip-content">
+                        <h4>Invest in Skills, Not Stuff</h4>
+                        <p>Skip the fancy equipment. Invest in courses, mentors, and skill development. A $500 course can be worth $50K in revenue.</p>
+                    </div>
+                </div>
+
+                <div class="tip-card fade-in">
+                    <div class="tip-number">08</div>
+                    <div class="tip-content">
+                        <h4>Create Systems, Not Just Content</h4>
+                        <p>Build repeatable processes for everything. SOPs, templates, automation flows. Systems free you to focus on growth.</p>
+                    </div>
+                </div>
+
+                <div class="tip-card fade-in">
+                    <div class="tip-number">09</div>
+                    <div class="tip-content">
+                        <h4>Diversify Income Streams (Eventually)</h4>
+                        <p>Once your first stream is profitable, add complementary ones. But only after mastering the first. Stack income, don't scatter it.</p>
+                    </div>
+                </div>
+
+                <div class="tip-card fade-in">
+                    <div class="tip-number">10</div>
+                    <div class="tip-content">
+                        <h4>Protect Your Mental Health</h4>
+                        <p>Burnout is real. Set boundaries, take breaks, celebrate wins. The goal is freedom — don't build a prison disguised as a business.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mistakes to Avoid -->
+    <section style="background: rgba(108, 60, 225, 0.02);">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">⚠️ Warning</span>
+                <h2>Common Mistakes to Avoid</h2>
+                <p>Learn from others' failures so you don't repeat them.</p>
+            </div>
+
+            <div class="mistakes-grid">
+                <div class="mistake-card fade-in">
+                    <h4>🚫 Buying "Guru" Courses Without Acting</h4>
+                    <p>Information without implementation is entertainment. Stop collecting courses and start building. The best learning happens by doing.</p>
+                </div>
+
+                <div class="mistake-card fade-in">
+                    <h4>🚫 Chasing Every Trend</h4>
+                    <p>New opportunity ≠ your opportunity. Jumping between crypto, dropshipping, AI, and content every week guarantees you'll master none.</p>
+                </div>
+
+                <div class="mistake-card fade-in">
+                    <h4>🚫 Ignoring Your Audience</h4>
+                    <p>Building what you want instead of what people need. Always validate demand. Talk to customers. Let the market tell you what to build.</p>
+                </div>
+
+                <div class="mistake-card fade-in">
+                    <h4>🚫 Underpricing Your Services</h4>
+                    <p>Racing to the bottom on price attracts terrible clients and kills your motivation. Charge premium, deliver premium. Value-based pricing always wins.</p>
+                </div>
+
+                <div class="mistake-card fade-in">
+                    <h4>🚫 Not Tracking Your Numbers</h4>
+                    <p>What gets measured gets managed. Track revenue, expenses, traffic, conversion rates. Gut feelings don't scale — data does.</p>
+                </div>
+
+                <div class="mistake-card fade-in">
+                    <h4>🚫 Giving Up Too Early</h4>
+                    <p>Most people quit right before the breakthrough. The first 6 months are the hardest. Consistent effort compounds — trust the process.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section>
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Success Stories</span>
+                <h2>Real People, Real Results</h2>
+                <p>Everyday people who built thriving online incomes.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"I started selling Notion templates as a side project. Within 8 months, I was making $7K/month passively. I quit my 9-to-5 and never looked back. AI tools made the design process incredibly fast."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">S</div>
+                        <div class="author-info">
+                            <div class="name">Sarah K.</div>
+                            <div class="role">Digital Product Creator</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-in">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"I leveraged ChatGPT and automation tools to offer AI consulting to local businesses. Went from $0 to $15K/month in under a year. The demand is insane — businesses are desperate for AI help."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">M</div>
+                        <div class="author-info">
+                            <div class="name">Marcus R.</div>
+                            <div class="role">AI Automation Consultant</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-in">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Started a faceless YouTube channel about personal finance using AI-generated scripts and voiceovers. 100K subscribers in 14 months. Ad revenue + affiliate income now exceeds $12K/month."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">J</div>
+                        <div class="author-info">
+                            <div class="name">Jamie L.</div>
+                            <div class="role">YouTube Creator</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" style="background: rgba(108, 60, 225, 0.02);">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">FAQ</span>
+                <h2>Frequently Asked Questions</h2>
+                <p>Answers to the most common questions about making money online in 2026.</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item fade-in">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        How much money do I need to start?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Most online businesses can be started with $0–$100. Freelancing costs nothing. Selling digital products might need a $10/month Gumroad subscription. E-commerce might need $30–$50/month for Shopify. The biggest investment is your time and effort.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-in">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Do I need technical skills or a degree?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely not. AI tools have leveled the playing field. You can build websites without coding (Framer, Webflow), create designs without Photoshop (Canva, Midjourney), and write copy without being a writer (ChatGPT, Claude). Skills matter, but they can be learned as you go.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-in">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        How long until I make my first dollar?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>With freelancing, you can earn within the first week if you're proactive. Digital products might take 2–4 weeks. Content creation usually takes 3–6 months to monetize. The key variable is how much focused action you take daily.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-in">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Is it too saturated? Is it too late to start?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No. The online economy is expanding, not contracting. New niches emerge constantly. AI creates entirely new service categories every month. The best time to start was yesterday. The second-best time is right now. Your unique perspective and personality are your competitive advantage.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-in">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Can I do this while working a full-time job?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes — and you should. Most successful online entrepreneurs started as a side hustle. Dedicate 1–2 hours before or after work, and weekends. Once your side income matches your salary, consider transitioning. Don't quit your job prematurely.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-in">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        What's the #1 method you'd recommend for beginners?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Freelancing or digital products. Freelancing gives you quick cash flow and client experience. Digital products give you passive income potential. Both have low startup costs and can be started this week. If you have a skill, freelance. If you have knowledge, create a digital product.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-box fade-in">
+                <h2>Ready to Start Your<br><span style="background: var(--gradient-2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Online Income Journey?</span></h2>
+                <p>Join thousands of aspiring entrepreneurs who are building their financial freedom online. Get weekly tips, tools, and strategies delivered to your inbox.</p>
+                <form class="newsletter-form" onsubmit="handleSubmit(event)">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe Free →</button>
+                </form>
+                <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 1rem;">No spam. Unsubscribe anytime. Free forever.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div>
+                <div class="logo" style="margin-bottom: 0.5rem;">MoneyFlow 2026</div>
+                <p class="footer-text">Your guide to financial freedom in the digital age.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#methods">Methods</a>
+                <a href="#ai-tools">AI Tools</a>
+                <a href="#steps">Get Started</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            <p class="footer-text">© 2026 MoneyFlow. Made with 💜 and AI.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" onclick="scrollToTop()" aria-label="Back to top">↑</button>
+
+    <script>
+        // Scroll Progress Bar
+        window.addEventListener('scroll', () => {
+            const scrollTop = document.documentElement.scrollTop;
+            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const progress = (scrollTop / scrollHeight) * 100;
+            document.getElementById('progressBar').style.width = progress + '%';
+
+            // Navbar scroll effect
+            const navbar = document.getElementById('navbar');
+            if (scrollTop > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+
+            // Back to top button
+            const backToTop = document.getElementById('backToTop');
+            if (scrollTop > 500) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        // Fade In Animation
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+        // FAQ Toggle
+        function toggleFaq(btn) {
+            const answer = btn.nextElementSibling;
+            const icon = btn.querySelector('.icon');
+            const isActive = answer.classList.contains('active');
+
+            // Close all
+            document.querySelectorAll('.faq-answer').forEach(a => a.classList.remove('active'));
+            document.querySelectorAll('.faq-question .icon').forEach(i => i.textContent = '+');
+
+            if (!isActive) {
+                answer.classList.add('active');
+                icon.textContent = '−';
+            }
+        }
+
+        // Scroll to top
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Newsletter form
+        function handleSubmit(e) {
+            e.preventDefault();
+            const input = e.target.querySelector('input');
+            const btn = e.target.querySelector('button');
+            btn.textContent = '✓ Subscribed!';
+            btn.style.background = 'linear-gradient(135deg, #10B981, #059669)';
+            input.value = '';
+            setTimeout(() => {
+                btn.textContent = 'Subscribe Free →';
+                btn.style.background = '';
+            }, 3000);
+        }
+
+        // Mobile menu toggle (simplified)
+        function toggleMobile() {
+            const links = document.querySelector('.nav-links');
+            if (links.style.display === 'flex') {
+                links.style.display = 'none';
+            } else {
+                links.style.display = 'flex';
+                links.style.flexDirection = 'column';
+                links.style.position = 'absolute';
+                links.style.top = '100%';
+                links.style.left = '0';
+                links.style.right = '0';
+                links.style.background = 'rgba(15, 14, 23, 0.98)';
+                links.style.padding = '1.5rem';
+                links.style.gap = '1.5rem';
+                links.style.borderBottom = '1px solid var(--border)';
+                links.style.backdropFilter = 'blur(20px)';
+            }
+        }
+
+        // Close mobile menu on link click
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (window.innerWidth <= 768) {
+                    document.querySelector('.nav-links').style.display = 'none';
+                }
+            });
+        });
+
+        // Reset mobile menu on resize
+        window.addEventListener('resize', () => {
+            const links = document.querySelector('.nav-links');
+            if (window.innerWidth > 768) {
+                links.style.display = '';
+                links.style.flexDirection = '';
+                links.style.position = '';
+                links.style.top = '';
+                links.style.left = '';
+                links.style.right = '';
+                links.style.background = '';
+                links.style.padding = '';
+                links.style.gap = '';
+                links.style.borderBottom = '';
+                links.style.backdropFilter = '';
+            }
+        });
+    </script>
+</body>
+</html>
